@@ -8,6 +8,7 @@
   --darkblue: #040b1b;
   --lightBlue: #0e59c7;
   --blue: #1d74f5;
+  --grey: #a3b4cc;
 }
 body {
   background-color: var(--darkblue);
@@ -115,10 +116,27 @@ button {
 .trustedBy {
   height: 140px;
   width: 80%;
-  background-color: var(--blue);
   margin-top: 3em;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+}
+.trustedBy p {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  color: var(--grey);
+  text-transform: uppercase;
+}
+.trustedBy .logoRow {
+  width: 80%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logoRow img {
+  height: 30px;
+  width: 200px;
 }
