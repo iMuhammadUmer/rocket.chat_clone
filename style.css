@@ -4,8 +4,13 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
 }
+:root {
+  --darkblue: #040b1b;
+  --lightBlue: #0e59c7;
+  --blue: #1d74f5;
+}
 body {
-  background-color: #040b1b;
+  background-color: var(--darkblue);
 }
 header {
   height: 100px;
@@ -29,6 +34,13 @@ li img {
   width: 120px;
   height: 21px;
 }
+li a {
+  transition: 0.3s;
+  text-decoration: none;
+}
+li a:hover {
+  color: var(--blue);
+}
 .tip {
   width: 80%;
   height: 40px;
@@ -36,7 +48,6 @@ li img {
   border-radius: 10px;
   border: none;
   text-align: center;
-
   padding-top: 1em;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -54,6 +65,17 @@ section {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.heroImg h1 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.heroImg p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin: 1em 0 1em 0;
 }
 .content {
   width: 450px;
@@ -73,9 +95,11 @@ button {
   height: 46px;
   outline: none;
   border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 .trial {
-  background-color: #0e59c7;
+  background-color: var(--lightBlue);
   color: white;
   text-align: center;
 }
@@ -84,8 +108,7 @@ button {
   color: black;
   text-align: center;
 }
-.img {
-  height: 400px;
-  width: 400px;
-  background-color: brown;
+.heroImg img {
+  height: 500px;
+  width: 580px;
 }
