@@ -61,7 +61,7 @@ section {
   align-items: center;
 }
 .heroImg {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -139,4 +139,9 @@ button {
 .logoRow img {
   height: 30px;
   width: 200px;
+}
+.aboutRow {
+  height: 400px;
+  width: 90%;
+  background-color: aqua;
 }
