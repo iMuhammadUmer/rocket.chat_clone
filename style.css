@@ -145,3 +145,8 @@ button {
   width: 90%;
   background-color: aqua;
 }
+.aboutRow .col {
+  height: 400px;
+  width: 500px;
+  background-color: yellow;
+}
