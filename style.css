@@ -143,10 +143,30 @@ button {
 .aboutRow {
   height: 400px;
   width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: aqua;
 }
 .aboutRow .col {
   height: 400px;
   width: 500px;
-  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.aboutRow img {
+  height: 400px;
+  width: 500px;
+}
+.aboutRow h1 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.aboutRow p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--grey);
 }
