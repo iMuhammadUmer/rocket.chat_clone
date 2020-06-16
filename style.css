@@ -140,19 +140,25 @@ button {
   height: 30px;
   width: 200px;
 }
+.about {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .aboutRow {
   height: 400px;
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
+  margin-bottom: 3em;
 }
 .aboutRow .col {
   height: 400px;
   width: 500px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
 }
 .aboutRow img {
@@ -165,8 +171,13 @@ button {
   font-weight: 700;
 }
 .aboutRow p {
+  width: 350px;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: var(--grey);
+  margin: 1em 0 1em 0;
+}
+.aboutRow iframe {
+  padding-right: 3em;
 }
