@@ -156,9 +156,8 @@ button {
 }
 .aboutRow .col {
   height: 400px;
-  width: 500px;
+  width: 400px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 .aboutRow img {
@@ -180,4 +179,20 @@ button {
 }
 .aboutRow iframe {
   padding-right: 3em;
+}
+.aboutRow .code {
+  height: inherit;
+  width: 100%;
+  background-size: 60% auto;
+  background-image: url(https://rocket.chat/images/index/join-community.jpg);
+  background-repeat: repeat-y;
+  animation: positionXHome 50s linear infinite;
+  animation-duration: 50s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: positionXHome;
 }
