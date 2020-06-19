@@ -196,3 +196,8 @@ button {
   animation-play-state: running;
   animation-name: positionXHome;
 }
+.features {
+  height: 480px;
+  width: 85%;
+  background-color: var(--blue);
+}
