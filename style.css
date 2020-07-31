@@ -9,6 +9,7 @@
   --lightBlue: #0e59c7;
   --blue: #1d74f5;
   --grey: #a3b4cc;
+  --lightBlueFont: #c1d7fc;
 }
 body {
   background-color: var(--darkblue);
@@ -203,4 +204,20 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.features .col {
+  height: 200px;
+  width: 460px;
+  color: var(--lightBlueFont);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.features #bold {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--lightBlueFont);
+}
+.features p {
+  color: var(--lightBlueFont);
 }
