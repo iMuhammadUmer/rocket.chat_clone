@@ -221,3 +221,8 @@ button {
 .features p {
   color: var(--lightBlueFont);
 }
+.appFeature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
