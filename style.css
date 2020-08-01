@@ -229,6 +229,17 @@ button {
 }
 .appFeature .appFeatureRow {
   height: 400px;
-  width: 80%;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: aqua;
+}
+.appFeatureRow .content {
+  width: 475px;
+  height: 255px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: blue;
 }
