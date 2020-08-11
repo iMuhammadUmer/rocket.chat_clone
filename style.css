@@ -10,6 +10,7 @@
   --blue: #1d74f5;
   --grey: #a3b4cc;
   --lightBlueFont: #c1d7fc;
+  --headingCol: #6b7d99;
 }
 body {
   background-color: var(--darkblue);
@@ -282,4 +283,32 @@ button {
 }
 .customizeFeature {
   width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.customizeFeature h4 {
+  color: var(--headingCol);
+}
+.customizeFeature h1 {
+  color: black;
+}
+.customizeFeature p {
+  width: 50%;
+  text-align: center;
+  color: var(--grey);
+}
+.featRow {
+  width: 85%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featRow .col {
+  width: 280px;
+  height: inherit;
+  background-color: black;
 }
