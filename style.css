@@ -254,6 +254,29 @@ button {
 }
 .appFeat {
   width: 85%;
-  background-color: beige;
   margin: 1em 0 1em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appFeat .col {
+  width: 475px;
+  height: 300px;
+}
+.appFeat h1 {
+  width: 70%;
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+.appFeat p {
+  color: var(--grey);
+  margin-bottom: 0.5em;
+}
+.appFeat a {
+  color: var(--lightBlue);
+  text-decoration: none;
+}
+.appFeat #bold {
+  font-weight: 700;
+  font-size: 16px;
 }
