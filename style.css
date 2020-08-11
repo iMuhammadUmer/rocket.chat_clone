@@ -243,12 +243,17 @@ button {
   justify-content: space-between;
   flex-direction: column;
 }
-.appFeatureRow .content h3  {
+.appFeatureRow .content h3 {
   color: black;
 }
-.appFeatureRow .content h1  {
+.appFeatureRow .content h1 {
   color: black;
 }
-.appFeatureRow .content p  {
+.appFeatureRow .content p {
   color: black;
+}
+.appFeat {
+  width: 85%;
+  background-color: beige;
+  margin: 1em 0 1em 0;
 }
