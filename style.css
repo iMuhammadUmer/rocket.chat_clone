@@ -296,13 +296,13 @@ button {
   color: black;
 }
 .customizeFeature p {
-  width: 50%;
+  width: 55%;
   text-align: center;
   color: var(--grey);
 }
 .featRow {
   width: 85%;
-  height: 200px;
+  height: 250px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -310,5 +310,12 @@ button {
 .featRow .col {
   width: 280px;
   height: inherit;
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.featRow p {
+  width: 100%;
+  margin-top: 2em;
 }
