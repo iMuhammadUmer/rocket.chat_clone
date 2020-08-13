@@ -288,12 +288,14 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 2em 0 2em 0;
 }
 .customizeFeature h4 {
   color: var(--headingCol);
 }
 .customizeFeature h1 {
   color: black;
+  margin: 1em 0 1em 0;
 }
 .customizeFeature p {
   width: 55%;
@@ -306,6 +308,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3em;
 }
 .featRow .col {
   width: 280px;
