@@ -324,4 +324,12 @@ button {
 }
 .screenShots {
   width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+.screenShots img {
+  height: inherit;
+  width: 95%;
 }
