@@ -11,6 +11,7 @@
   --grey: #a3b4cc;
   --lightBlueFont: #c1d7fc;
   --headingCol: #6b7d99;
+  --btnGithubBg: #121f33;
 }
 body {
   background-color: var(--darkblue);
@@ -262,7 +263,7 @@ button {
 }
 .appFeat .col {
   width: 475px;
-  height: 300px;
+  height: 350px;
 }
 .appFeat h1 {
   width: 70%;
@@ -360,7 +361,7 @@ footer ul li {
   line-height: 20px;
 }
 .col {
-  width: 265px;
+  width: 280px;
   height: 370px;
   display: flex;
   flex-direction: column;
@@ -370,8 +371,33 @@ footer ul li {
   font-weight: 700;
   color: var(--headingCol);
   text-transform: uppercase;
-  margin: 2em 0 2em 0;
+  margin: 2em 0 1.5em 0;
 }
 footer a:hover {
   color: var(--headingCol);
+}
+footer img {
+  width: 18px;
+  height: 12px;
+  margin-right: 10px;
+}
+footer span {
+  display: flex;
+}
+footer button {
+  width: 127px;
+  height: 36px;
+  background-color: var(--btnGithubBg);
+  margin-right: 10px;
+}
+.social {
+  width: 36px;
+  height: 36px;
+  margin-right: 5px;
+}
+.btnSignup {
+  width: 139px;
+  height: 44px;
+  background-color: var(--blue);
+  margin-bottom: 1em;
 }
